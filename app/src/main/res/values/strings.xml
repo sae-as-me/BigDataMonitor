@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">BigDataMonitor</string>
+    <string name="accessibility_service_description">监控剪贴板访问、应用前后台切换等隐私相关事件。BigDataMonitor 使用此服务检测哪些应用读取了您的剪贴板，以及应用使用行为的时间线。所有数据仅存储在本地，不会上传。</string>
+    <string name="notification_monitor_description">监听所有应用推送的通知内容，用于检测个性化推荐是否与您的隐私事件相关联。所有通知数据仅存储在本地。</string>
+    <string name="foreground_notification_title">BigDataMonitor 正在监控</string>
+    <string name="foreground_notification_text">正在保护您的隐私安全</string>
+    <string name="foreground_notification_channel">监控服务</string>
+    <string name="vpn_notification_channel">网络监控</string>
+    <string name="vpn_notification_title">网络监控已开启</string>
+    <string name="vpn_notification_text">正在分析应用网络连接目标</string>
+    
+    <!-- Navigation -->
+    <string name="nav_dashboard">仪表盘</string>
+    <string name="nav_timeline">时间线</string>
+    <string name="nav_applist">应用</string>
+    <string name="nav_correlation">关联分析</string>
+    <string name="nav_settings">设置</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_today_events">今日隐私事件</string>
+    <string name="dashboard_clipboard_reads">剪贴板被读取</string>
+    <string name="dashboard_related_notifications">疑似关联通知</string>
+    <string name="dashboard_high_risk_apps">高风险应用</string>
+    <string name="dashboard_risk_ranking">隐私风险排行</string>
+    <string name="dashboard_today_timeline">今日事件时间线</string>
+    <string name="dashboard_monitoring_status">监控服务状态</string>
+    
+    <!-- Timeline -->
+    <string name="timeline_filter_all">全部</string>
+    <string name="timeline_filter_clipboard">剪贴板</string>
+    <string name="timeline_filter_notification">通知</string>
+    <string name="timeline_filter_usage">使用</string>
+    <string name="timeline_filter_network">网络</string>
+    <string name="timeline_filter_correlation">关联</string>
+    <string name="timeline_empty">暂无监控事件</string>
+    <string name="timeline_empty_hint">请确保已开启监控服务</string>
+    
+    <!-- App List -->
+    <string name="applist_empty">未找到应用</string>
+    <string name="applist_risk_score">风险评分</string>
+    <string name="applist_sensitive_permissions">个敏感权限</string>
+    
+    <!-- Correlation -->
+    <string name="correlation_add">标注敏感事件</string>
+    <string name="correlation_marked_events">已标注事件</string>
+    <string name="correlation_related_results">关联结果</string>
+    <string name="correlation_confidence">可信度</string>
+    <string name="correlation_disclaimer">⚠ 关联为推断分析，非因果证明</string>
+    <string name="correlation_empty">尚未标注任何敏感事件</string>
+    <string name="correlation_empty_hint">点击上方按钮标注您的隐私事件</string>
+    
+    <!-- Settings -->
+    <string name="settings_appearance">外观</string>
+    <string name="settings_dynamic_color">主题色跟随系统</string>
+    <string name="settings_dark_mode">深色模式</string>
+    <string name="settings_monitoring">监控服务</string>
+    <string name="settings_clipboard_monitor">剪贴板监控</string>
+    <string name="settings_notification_monitor">通知监控</string>
+    <string name="settings_usage_stats">使用统计追踪</string>
+    <string name="settings_permission_audit">权限审计</string>
+    <string name="settings_network_monitor">网络监控 (VPN)</string>
+    <string name="settings_data_storage">数据存储</string>
+    <string name="settings_data_retention">数据保留天数</string>
+    <string name="settings_notification_storage">通知内容存储</string>
+    <string name="settings_clipboard_storage">剪贴板内容存储</string>
+    <string name="settings_clear_data">立即清理数据</string>
+    <string name="settings_data_export">数据导出</string>
+    <string name="settings_export_json">导出为 JSON</string>
+    <string name="settings_export_csv">导出为 CSV</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_version">版本</string>
+    <string name="settings_privacy_statement">隐私声明</string>
+    <string name="settings_tech_limits">技术限制说明</string>
+    <string name="settings_storage_summary">仅摘要</string>
+    <string name="settings_storage_full">完整内容</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">欢迎使用 BigDataMonitor</string>
+    <string name="onboarding_welcome_desc">一款隐私行为感知工具，帮助您了解哪些个人信息被哪些 App 获取并用于个性化推荐。</string>
+    <string name="onboarding_no_internet">不联网 · 不上传 · 无广告</string>
+    <string name="onboarding_permissions_title">开启监控权限</string>
+    <string name="onboarding_permissions_desc">BigDataMonitor 需要以下权限才能监控隐私事件。请依次开启：</string>
+    <string name="onboarding_perm_accessibility">无障碍服务：检测剪贴板访问</string>
+    <string name="onboarding_perm_notification">通知监听：捕获推送通知内容</string>
+    <string name="onboarding_perm_usage">使用统计：追踪应用前后台切换</string>
+    <string name="onboarding_limits_title">技术限制说明</string>
+    <string name="onboarding_understand">我已了解</string>
+    <string name="onboarding_skip">跳过</string>
+    <string name="onboarding_start">开始使用</string>
+    <string name="onboarding_next">下一步</string>
+    <string name="onboarding_go_settings">去开启</string>
+    
+    <!-- Common -->
+    <string name="common_confirm">确认</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_back">返回</string>
+    <string name="common_save">保存</string>
+    <string name="common_delete">删除</string>
+    <string name="common_enabled">已开启</string>
+    <string name="common_disabled">未开启</string>
+    <string name="common_not_granted">未授权</string>
+    <string name="common_go_enable">去开启</string>
+    
+    <!-- Risk levels -->
+    <string name="risk_low">低风险</string>
+    <string name="risk_medium">中风险</string>
+    <string name="risk_high">高风险</string>
+    <string name="risk_critical">极高风险</string>
+    <string name="risk_unknown">未知</string>
+    
+    <!-- Event types -->
+    <string name="event_clipboard_read">读取剪贴板</string>
+    <string name="event_clipboard_change">剪贴板变化</string>
+    <string name="event_notification">推送通知</string>
+    <string name="event_app_foreground">切到前台</string>
+    <string name="event_app_background">切到后台</string>
+    <string name="event_network">网络连接</string>
+    <string name="event_clipboard_text">%1$s</string>
+    
+    <!-- App detail -->
+    <string name="appdetail_permissions">敏感权限</string>
+    <string name="appdetail_events">事件记录</string>
+    <string name="appdetail_network">网络连接</string>
+    <string name="appdetail_risk_breakdown">评分明细</string>
+    <string name="appdetail_no_events">该应用暂无事件记录</string>
+</resources>

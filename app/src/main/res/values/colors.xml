@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_primary">#2E7D32</color>
+    <color name="green_light">#81C784</color>
+    <color name="orange_secondary">#FF6F00</color>
+    <color name="orange_light">#FFB74D</color>
+    <color name="surface_light">#FFFBFE</color>
+    <color name="surface_dark">#1C1B1F</color>
+    <color name="tech_bg">#0A1929</color>
+</resources>

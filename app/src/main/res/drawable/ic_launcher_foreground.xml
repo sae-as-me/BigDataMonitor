@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    BigDataMonitor App Icon - Tech Style
+    Canvas: 108x108dp (Android adaptive icon foreground standard)
+    Safe zone: center 72x72dp (66.7%)
+    Design: Dark hexagonal frame with circuit traces and "BDM" lettering
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ===== Circuit decoration lines (background layer) ===== -->
+
+    <!-- Top-left circuit trace -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1A3A5C"
+        android:strokeWidth="0.8"
+        android:pathData="M18,28 L28,28 L28,22 L36,22" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1A3A5C"
+        android:strokeWidth="0.8"
+        android:pathData="M18,34 L24,34 L24,40 L30,40" />
+    <path
+        android:fillColor="#1A3A5C"
+        android:pathData="M17,27 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0" />
+    <path
+        android:fillColor="#1A3A5C"
+        android:pathData="M35,21 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0" />
+
+    <!-- Top-right circuit trace -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1A3A5C"
+        android:strokeWidth="0.8"
+        android:pathData="M90,28 L80,28 L80,22 L72,22" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1A3A5C"
+        android:strokeWidth="0.8"
+        android:pathData="M90,34 L84,34 L84,40 L78,40" />
+    <path
+        android:fillColor="#1A3A5C"
+        android:pathData="M91,27 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0" />
+    <path
+        android:fillColor="#1A3A5C"
+        android:pathData="M73,21 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0" />
+
+    <!-- Bottom-left circuit trace -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1A3A5C"
+        android:strokeWidth="0.8"
+        android:pathData="M18,80 L28,80 L28,86 L36,86" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1A3A5C"
+        android:strokeWidth="0.8"
+        android:pathData="M18,74 L24,74 L24,68 L30,68" />
+    <path
+        android:fillColor="#1A3A5C"
+        android:pathData="M17,81 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0" />
+    <path
+        android:fillColor="#1A3A5C"
+        android:pathData="M35,87 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0" />
+
+    <!-- Bottom-right circuit trace -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1A3A5C"
+        android:strokeWidth="0.8"
+        android:pathData="M90,80 L80,80 L80,86 L72,86" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1A3A5C"
+        android:strokeWidth="0.8"
+        android:pathData="M90,74 L84,74 L84,68 L78,68" />
+    <path
+        android:fillColor="#1A3A5C"
+        android:pathData="M91,81 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0" />
+    <path
+        android:fillColor="#1A3A5C"
+        android:pathData="M73,87 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0" />
+
+    <!-- ===== Hexagonal frame (outer) ===== -->
+    <!-- Hexagon centered at (54,54), radius ~38, pointing flat-top -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#0D2440"
+        android:strokeWidth="2"
+        android:pathData="M54,16 L87,35 L87,73 L54,92 L21,73 L21,35 Z" />
+
+    <!-- Hexagonal frame (inner, subtle) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1A3A5C"
+        android:strokeWidth="0.6"
+        android:pathData="M54,20 L83,37 L83,71 L54,88 L25,71 L25,37 Z" />
+
+    <!-- ===== Gradient hexagon fill (dark tech background) ===== -->
+    <path
+        android:fillColor="#0A1929"
+        android:pathData="M54,18 L85,36 L85,72 L54,90 L23,72 L23,36 Z" />
+
+    <!-- Inner hexagon border (glow accent) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00BCD4"
+        android:strokeWidth="0.5"
+        android:strokeAlpha="0.4"
+        android:pathData="M54,22 L81,38 L81,70 L54,86 L27,70 L27,38 Z" />
+
+    <!-- ===== Hexagon corner accent dots ===== -->
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M54,16 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M87,35 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M87,73 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M54,92 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M21,73 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M21,35 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+
+    <!-- ===== Data stream dots (decorative, inside hexagon) ===== -->
+    <path
+        android:fillColor="#00BCD4"
+        android:fillAlpha="0.3"
+        android:pathData="M32,44 m-0.8,0 a0.8,0.8 0 1,0 1.6,0 a0.8,0.8 0 1,0 -1.6,0" />
+    <path
+        android:fillColor="#00BCD4"
+        android:fillAlpha="0.2"
+        android:pathData="M32,50 m-0.6,0 a0.6,0.6 0 1,0 1.2,0 a0.6,0.6 0 1,0 -1.2,0" />
+    <path
+        android:fillColor="#00BCD4"
+        android:fillAlpha="0.15"
+        android:pathData="M32,56 m-0.5,0 a0.5,0.5 0 1,0 1,0 a0.5,0.5 0 1,0 -1,0" />
+
+    <path
+        android:fillColor="#00BCD4"
+        android:fillAlpha="0.3"
+        android:pathData="M76,44 m-0.8,0 a0.8,0.8 0 1,0 1.6,0 a0.8,0.8 0 1,0 -1.6,0" />
+    <path
+        android:fillColor="#00BCD4"
+        android:fillAlpha="0.2"
+        android:pathData="M76,50 m-0.6,0 a0.6,0.6 0 1,0 1.2,0 a0.6,0.6 0 1,0 -1.2,0" />
+    <path
+        android:fillColor="#00BCD4"
+        android:fillAlpha="0.15"
+        android:pathData="M76,56 m-0.5,0 a0.5,0.5 0 1,0 1,0 a0.5,0.5 0 1,0 -1,0" />
+
+    <!-- ===== BDM Lettering ===== -->
+    <!-- Letters are drawn as filled paths in the safe zone (center ~72x72dp) -->
+    <!-- Baseline at y=64, cap height at y=40, letter width ~14dp each, spacing ~3dp -->
+    <!-- Total width: 14+3+14+3+14 = 48dp, centered at x=54, start at x=30 -->
+
+    <!-- Letter B (x: 30-44) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M30,40 L30,64 L38,64 C42,64 44,62 44,59 C44,57 43,55.5 41,55 C42.5,54.5 43.5,53 43.5,51 C43.5,48.5 41.5,40 38,40 Z M34,43 L37.5,43 C39,43 39.5,44 39.5,45.5 C39.5,47 39,48 37.5,48 L34,48 Z M34,51 L38,51 C39.5,51 40,52 40,53.5 C40,55 39.5,56 38,56 L34,56 Z" />
+
+    <!-- Letter D (x: 47-61) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M47,40 L47,64 L52,64 C58,64 61,60 61,52 C61,44 58,40 52,40 Z M51,43 L52,43 C56,43 57,46 57,52 C57,58 56,61 52,61 L51,61 Z" />
+
+    <!-- Letter M (x: 64-78) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M64,40 L64,64 L68,64 L68,50 L71,58 L74,50 L74,64 L78,64 L78,40 L74,40 L71,48 L68,40 Z" />
+
+    <!-- ===== Scanline accent (subtle horizontal line through letters) ===== -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#0D2440"
+        android:strokeWidth="0.4"
+        android:pathData="M28,54 L80,54" />
+
+    <!-- ===== Bottom data bars (decorative) ===== -->
+    <path
+        android:fillColor="#00BCD4"
+        android:fillAlpha="0.5"
+        android:pathData="M38,72 L38,75 L40,75 L40,72 Z" />
+    <path
+        android:fillColor="#00BCD4"
+        android:fillAlpha="0.5"
+        android:pathData="M42,71 L42,76 L44,76 L44,71 Z" />
+    <path
+        android:fillColor="#00BCD4"
+        android:fillAlpha="0.5"
+        android:pathData="M46,70 L46,77 L48,77 L48,70 Z" />
+    <path
+        android:fillColor="#00BCD4"
+        android:fillAlpha="0.5"
+        android:pathData="M50,72 L50,75 L52,75 L52,72 Z" />
+    <path
+        android:fillColor="#00BCD4"
+        android:fillAlpha="0.5"
+        android:pathData="M54,71 L54,76 L56,76 L56,71 Z" />
+    <path
+        android:fillColor="#00BCD4"
+        android:fillAlpha="0.5"
+        android:pathData="M58,70 L58,77 L60,77 L60,70 Z" />
+    <path
+        android:fillColor="#00BCD4"
+        android:fillAlpha="0.5"
+        android:pathData="M62,72 L62,75 L64,75 L64,72 Z" />
+    <path
+        android:fillColor="#00BCD4"
+        android:fillAlpha="0.5"
+        android:pathData="M66,71 L66,76 L68,76 L68,71 Z" />
+    <path
+        android:fillColor="#00BCD4"
+        android:fillAlpha="0.5"
+        android:pathData="M70,72 L70,75 L72,75 L72,72 Z" />
+
+</vector>
